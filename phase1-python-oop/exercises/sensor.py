@@ -1,7 +1,7 @@
 class Sensor:
-    def __init__(self, name, unitOfMeasurement, frequencies):
+    def __init__(self, name, unit_of_measurement, frequencies):
         self.name = name
-        self.unitOfMeasurement = unitOfMeasurement
+        self.unitOfMeasurement = unit_of_measurement
         self.frequencies = frequencies
         self.readings = []
 
